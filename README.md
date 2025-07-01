@@ -46,15 +46,3 @@ Users can sign up, log their vehicles, and view service history. Garage managers
 - **Validation**: Yup
 - **HTTP Client**: Axios
 
-## ⚙️ Getting Started
-
-Follow these steps to run the project locally.
-
-### Prerequisites
-
-- Python 3.8+
-- Node.js & npm
-- PostgreSQL installed and running
-
----
-
