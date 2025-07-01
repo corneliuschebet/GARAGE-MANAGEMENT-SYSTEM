@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-    baseURL: 'https://garage-management-system-tjt9.onrender.com/', // Your Flask backend URL
+    baseURL: 'https://garage-management-system-tjt9.onrender.com', // Your Flask backend URL
 });
 
 // Interceptor to add the auth token to every request
