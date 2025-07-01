@@ -21,7 +21,7 @@ def create_app(config_class=Config):
     db.init_app(app)
     ma.init_app(app)
     jwt.init_app(app)
-    cors.init_app(app, resources={r"/api/*": {"origins": "*"}}) # Allow all origins for /api/ routes
+    cors.init_app(app, resources={r"/api/*": {"origins": "https://garage-management-system-black.vercel.app"}}) # Allow all origins for /api/ routes
     migrate.init_app(app, db)
 
     from app import routes, models # Import models to be registered with migrate
