@@ -1,0 +1,30 @@
+/* src/index.css */
+
+/* --- 1. Define a Color Palette using CSS Variables --- */
+/* This makes it easy to manage your theme colors in one place. */
+:root {
+  --background-color: #1a1a2e; /* Dark navy blue */
+  --surface-color: #16213e;    /* Slightly lighter navy for cards */
+  --primary-color: #0f3460;     /* A strong blue for accents */
+  --primary-accent: #e94560;    /* A pop of color (like pink/red) */
+  --text-primary: #e0e0e0;     /* Light gray for primary text */
+  --text-secondary: #a0a0a0;   /* Darker gray for secondary text */
+}
+
+/* --- 2. Create the Full-Screen Foundation --- */
+/* Make sure the app can fill the entire viewport height. */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* --- 3. Apply the Background and Default Text Color --- */
+body {
+  background-color: var(--background-color);
+  color: var(--text-primary);
+}
